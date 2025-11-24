@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+google-generativeai
+stripe
+python-dotenv
+faster-whisper
+faiss-cpu
+langchain
+langchain-community
+pydantic
+sentence-transformers
