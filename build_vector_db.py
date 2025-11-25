@@ -2,6 +2,7 @@
 
 import os
 import json
+import numpy as np
 import faiss
 from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_text_splitters import RecursiveCharacterTextSplitter
@@ -9,7 +10,7 @@ from langchain_text_splitters import RecursiveCharacterTextSplitter
 # ==========================
 # Paths
 # ==========================
-DATA_DIR = "data/"
+DATA_DIR = "data/raw_docs/"
 VECTOR_DB_PATH = "vector_store.faiss"
 CHUNKS_PATH = "chunks.json"
 
